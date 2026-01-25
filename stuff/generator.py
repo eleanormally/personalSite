@@ -99,6 +99,7 @@ def generate_html_blog():
 <head>
   <title>Eleanor Olson's Stuff!</title>
   <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="/public/favicon.ico">
   <style>
   body {{
     margin: auto;
