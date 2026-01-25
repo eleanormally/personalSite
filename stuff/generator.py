@@ -39,7 +39,7 @@ def rss_contents(file):
     <category>{parser.category}</category>
     <link>https://eleanorkolson.com/stuff/{file}</link>
     <guid>https://eleanorkolson.com/stuff/{file}</guid>
-    <author>Eleanor Olson</author>
+    <author>eleanorkolson@gmail.com</author>
     <pubDate>{published_date}</pubDate>
   </item>
 """
@@ -80,8 +80,9 @@ def generate_rss_feed():
     published_date = format_datetime(datetime.now(timezone.utc), usegmt=True)
 
     return f"""<?xml version="1.0" encoding="utf-8"?>
-<rss>
+<rss version="2.0" xmlns:atom="http://eleanorkolson.com/feed">
   <channel>
+  <atom:link href="http://eleanorkolson.com/feed" rel="self" />
   <title>Eleanor Olson</title>
   <link>https://eleanorkolson.com</link>
   <pubDate>{published_date}</pubDate>

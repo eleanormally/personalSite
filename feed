@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss>
+<rss version="2.0" xmlns:atom="http://eleanorkolson.com/feed">
   <channel>
+  <atom:link href="http://eleanorkolson.com/feed" rel="self" />
   <title>Eleanor Olson</title>
   <link>https://eleanorkolson.com</link>
-  <pubDate>Sun, 25 Jan 2026 04:27:06 GMT</pubDate>
+  <pubDate>Sun, 25 Jan 2026 05:08:59 GMT</pubDate>
   <language>en-us</language>
   <copyright>© 2026 Eleanor Olson</copyright>
   <description>
@@ -15,7 +16,7 @@
     <category>Linguistics</category>
     <link>https://eleanorkolson.com/stuff/defenestrationIndex.html</link>
     <guid>https://eleanorkolson.com/stuff/defenestrationIndex.html</guid>
-    <author>Eleanor Olson</author>
+    <author>eleanorkolson@gmail.com</author>
     <pubDate>Sun, 25 Jan 2026 03:47:51 GMT</pubDate>
   </item>
   <item>
@@ -24,7 +25,7 @@
     <category>Programming</category>
     <link>https://eleanorkolson.com/stuff/cbug.html</link>
     <guid>https://eleanorkolson.com/stuff/cbug.html</guid>
-    <author>Eleanor Olson</author>
+    <author>eleanorkolson@gmail.com</author>
     <pubDate>Sun, 25 Jan 2026 03:35:05 GMT</pubDate>
   </item>
   <item>
@@ -33,7 +34,7 @@
     <category>Programming</category>
     <link>https://eleanorkolson.com/stuff/skewax.html</link>
     <guid>https://eleanorkolson.com/stuff/skewax.html</guid>
-    <author>Eleanor Olson</author>
+    <author>eleanorkolson@gmail.com</author>
     <pubDate>Sun, 25 Jan 2026 03:33:30 GMT</pubDate>
   </item>
   </channel>
