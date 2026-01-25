@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss>
+  <channel>
+  <title>Eleanor Olson</title>
+  <link>https://eleanorkolson.com</link>
+  <pubDate>Sun, 25 Jan 2026 04:27:06 GMT</pubDate>
+  <language>en-us</language>
+  <copyright>© 2026 Eleanor Olson</copyright>
+  <description>
+    Eleanor's personal blog about various things. Probably mostly transit.
+  </description>
+  <item>
+    <title>The Defenestration Index</title>
+    <description>Quantitatively defining the absurdity of English words.</description>
+    <category>Linguistics</category>
+    <link>https://eleanorkolson.com/stuff/defenestrationIndex.html</link>
+    <guid>https://eleanorkolson.com/stuff/defenestrationIndex.html</guid>
+    <author>Eleanor Olson</author>
+    <pubDate>Sun, 25 Jan 2026 03:47:51 GMT</pubDate>
+  </item>
+  <item>
+    <title>CBug</title>
+    <description>Test</description>
+    <category>Programming</category>
+    <link>https://eleanorkolson.com/stuff/cbug.html</link>
+    <guid>https://eleanorkolson.com/stuff/cbug.html</guid>
+    <author>Eleanor Olson</author>
+    <pubDate>Sun, 25 Jan 2026 03:35:05 GMT</pubDate>
+  </item>
+  <item>
+    <title>Skewax</title>
+    <description>A web-based IDE for embedded programming, and first lessons in building for someone else.</description>
+    <category>Programming</category>
+    <link>https://eleanorkolson.com/stuff/skewax.html</link>
+    <guid>https://eleanorkolson.com/stuff/skewax.html</guid>
+    <author>Eleanor Olson</author>
+    <pubDate>Sun, 25 Jan 2026 03:33:30 GMT</pubDate>
+  </item>
+  </channel>
+</rss>
