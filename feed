@@ -9,7 +9,7 @@
     <title>Eleanor Olson</title>
     <link>https://eleanorkolson.com</link>
   </image>
-  <pubDate>Mon, 26 Jan 2026 02:42:29 GMT</pubDate>
+  <pubDate>Mon, 26 Jan 2026 02:54:44 GMT</pubDate>
   <language>en-us</language>
   <copyright>© 2026 Eleanor Olson</copyright>
   <description>
@@ -17,8 +17,7 @@
   </description>
   <item>
     <title>Hanziyu</title>
-    <description><![CDATA[    
-    <small>A satirical language built around pronuncing the written form of 汉字</small>
+    <description><![CDATA[    <small>A satirical language built around pronuncing the written form of 汉字</small>
     <p>This is an entirely joke conlang built around the fundamentally flawed concept of pronouncing chinese characters "just like how they're spelt". I do hope you enjoy, for some reason many people found it and a good chunk of them did.</p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/LAeeUwF-clw?si=XYV-s-awNMK1u3tF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   ]]></description>
@@ -31,8 +30,7 @@
   </item>
   <item>
     <title>The Defenestration Index</title>
-    <description><![CDATA[    
-    <small>Quantitatively defining the absurdity of English words.</small>
+    <description><![CDATA[    <small>Quantitatively defining the absurdity of English words.</small>
     <p>
       When I applied to universities, I was given a truly incredible prompt by the University of Chicago. They are quite famous for their "out there" essay questions, and this year was no different. While, they had a number of options to choose from, the one I chose goes as follows:
     </p>
@@ -123,8 +121,7 @@
   </item>
   <item>
     <title>Skewax</title>
-    <description><![CDATA[    
-    <small>A web-based IDE for embedded programming, and first lessons in building for someone else.</small>
+    <description><![CDATA[    <small>A web-based IDE for embedded programming, and first lessons in building for someone else.</small>
     <h2>The Premise</h2>
     <p>Back in high school, I took an introductory robotics class. Now, I'm sure some people reading this 
     has something of a similar experience, perhaps with arduino's or even some block based programming language. Unfortunately,

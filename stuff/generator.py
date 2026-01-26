@@ -35,7 +35,6 @@ def rss_categories(category_string):
 
 def rss_processed_page_contents(page_string):
     main_contents = next(re.finditer('<main>\n([\s\S]*)</main>', page_string)).group(1)
-    main_contents = re.sub("<h1 style=\"margin-bottom: 0\">.*</h1>", "", main_contents)
     return main_contents
 
 def rss_contents(file):
