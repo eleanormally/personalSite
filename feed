@@ -9,12 +9,22 @@
     <title>Eleanor Olson</title>
     <link>https://eleanorkolson.com</link>
   </image>
-  <pubDate>Sun, 25 Jan 2026 22:45:01 GMT</pubDate>
+  <pubDate>Mon, 26 Jan 2026 01:56:24 GMT</pubDate>
   <language>en-us</language>
   <copyright>© 2026 Eleanor Olson</copyright>
   <description>
     Eleanor's personal blog about various things. Probably mostly transit.
   </description>
+  <item>
+    <title>Hanziyu</title>
+    <description>A satirical language built around pronuncing the written form of 汉字</description>
+    <category>Linguistics</category>
+    <category>Conlangs</category>
+    <link>https://eleanorkolson.com/stuff/hanziyu.html</link>
+    <guid>https://eleanorkolson.com/stuff/hanziyu.html</guid>
+    <author>eleanorkolson@gmail.com (Eleanor Olson)</author>
+    <pubDate>Sun, 25 Jan 2026 22:36:19 GMT</pubDate>
+  </item>
   <item>
     <title>The Defenestration Index</title>
     <description>Quantitatively defining the absurdity of English words.</description>

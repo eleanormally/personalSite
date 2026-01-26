@@ -29,6 +29,9 @@ class Parser(HTMLParser):
         elif self.tag == "keywords":
             self.category = data
 
+def rss_categories(category_string):
+    return "\n    ".join([f'<category>{f}</category>' for f in category_string.split(", ")])
+
 def rss_contents(file):
     with open(file, "r") as file_contents:
         parser = Parser()
@@ -38,7 +41,7 @@ def rss_contents(file):
         return f"""  <item>
     <title>{parser.title}</title>
     <description>{parser.description}</description>
-    <category>{parser.category}</category>
+    {rss_categories(parser.category)}
     <link>https://eleanorkolson.com/stuff/{file}</link>
     <guid>https://eleanorkolson.com/stuff/{file}</guid>
     <author>eleanorkolson@gmail.com (Eleanor Olson)</author>
