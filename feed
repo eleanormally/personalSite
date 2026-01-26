@@ -9,7 +9,7 @@
     <title>Eleanor Olson</title>
     <link>https://eleanorkolson.com</link>
   </image>
-  <pubDate>Mon, 26 Jan 2026 01:56:24 GMT</pubDate>
+  <pubDate>Mon, 26 Jan 2026 02:42:29 GMT</pubDate>
   <language>en-us</language>
   <copyright>© 2026 Eleanor Olson</copyright>
   <description>
@@ -17,7 +17,11 @@
   </description>
   <item>
     <title>Hanziyu</title>
-    <description>A satirical language built around pronuncing the written form of 汉字</description>
+    <description><![CDATA[    
+    <small>A satirical language built around pronuncing the written form of 汉字</small>
+    <p>This is an entirely joke conlang built around the fundamentally flawed concept of pronouncing chinese characters "just like how they're spelt". I do hope you enjoy, for some reason many people found it and a good chunk of them did.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LAeeUwF-clw?si=XYV-s-awNMK1u3tF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  ]]></description>
     <category>Linguistics</category>
     <category>Conlangs</category>
     <link>https://eleanorkolson.com/stuff/hanziyu.html</link>
@@ -27,7 +31,90 @@
   </item>
   <item>
     <title>The Defenestration Index</title>
-    <description>Quantitatively defining the absurdity of English words.</description>
+    <description><![CDATA[    
+    <small>Quantitatively defining the absurdity of English words.</small>
+    <p>
+      When I applied to universities, I was given a truly incredible prompt by the University of Chicago. They are quite famous for their "out there" essay questions, and this year was no different. While, they had a number of options to choose from, the one I chose goes as follows:
+    </p>
+    <blockquote>
+      In Homer’s Iliad, Helen had a “face that launched a thousand ships.” A millihelen, then, measures the beauty needed to launch one ship. The Sagan unit is used to denote any large quantity (in place of “billions and billions”). A New York Minute measures the period of time between a traffic light turning green and the cab behind you honking. Invent a new unit of measurement. How is it derived? How is it used? What are its equivalents?
+    </blockquote>
+    <p>What follows is by no means a rigorous analysis of English, but rather a way to spend far too much time to quantify something both unquantifiable and arguably nonexistent. It may well be my magnum opus.</p>
+    <h3><b>Defenestrate: verb, the act of throwing (something or someone) out of a window.</b></h3>
+    <p>
+      I present to you this word as the epitome of the incredible absurdity of the English language’s
+      vocabulary. While, of course, this is not the only example of a word with little to no practical use, I
+      would argue it is one of the most amusing. The English language has evolved over centuries to create a
+      word for the act of throwing something out of a window, yet we are missing anything in our day-to-day
+      vernacular to monolexically describe the day after tomorrow. This, I argue, is problematic.
+    </p>
+    <p>
+      In all things that evolve, be it people, viruses, or language, evolution is fickle, and relics of
+      another time are to be expected. English, however, seems to have a particular affinity for confusion and
+      illogicalities. Perhaps this should be unsurprising given its background, which is a mix of romance,
+      Germanic, Norse, and even Indo-Aryan families, but to top off this teetering tower of languages writers
+      like Shakespeare have been able to single-handedly expand English vocabulary with everything from
+      “alligator” to “Xanthippe”. Shakespeare’s contributions may show the pervasiveness of his works and
+      the genius of his mind, but they also reveal the complete lack of standards governing the English
+      language. English is a toddler that chews on everything it finds, and English speakers have given it free
+      rein of the rubbish bin.
+    </p>
+    <p>
+      To understand the true extent of the, shall we say, interesting examples of existing vocabulary,
+      it is perhaps best to quantify the usefulness or absurdity of a word. For this, I have developed the latest
+      in word-value analysis methodology: the <i>Word Absurdity Index</i>, also referred to as the Defenestration
+      Score (D-Score).
+    </p>
+    <p>
+      To calculate absurdity the Defenestration Score includes four key elements: how “silly” it
+      sounds, whether it is easily misinterpreted in context, how many ways it can be used, and how
+      commonplace its use. The higher the D-Score, the more empirically absurd the word.
+      Let’s begin with a word’s sound: its phonemic quality. A word’s absurdity can be increased
+      substantially if the actual sound of the word is itself humorous, and according to a <a href="https://psycnet.apa.org/record/2018-52097-001?doi=1">paper written by
+      Professor Chris Westbury from the University of Alberta</a>, we can use a calculation of Shannon entropy
+      based on letter frequency to estimate the humour of a word. The equation for this is as follows, with <i>p<sub>i</sub></i>
+      being the frequency of a letter in English and i being the number of letters in the word. A higher value
+      of this means the word should sound more amusing.
+    </p>
+    <img src="/public/defenestration/humour.png">
+    <p>
+      The next factor is word ambiguity, where a more ambiguous word receives a higher D-Score as
+      its meaning is less clear and its usefulness is consequently lower. This value is based on the definitions
+      of a word, according to WordNet, and is represented in our final equation as <i>q</i>.
+    </p>
+    <p>
+      Third, a word with many related words is more likely to have numerous genuine use cases,
+      which lowers the D-score. This also uses WordNet, and in the equation, <i>h<sub>1</sub></i> is the number of directly
+      related words, while <i>h<sub>2</sub></i> is the number of words related to everything in <i>h<sub>1</sub></i>.
+    </p>
+    <img src="/public/defenestration/ambiguity.jpg">
+    <p>
+      Finally, the most significant component of the D score is a logged average of the word’s usage
+      frequency in print from 1990 to 2019 according to Google NGram viewer, where <i>f<sub>i</sub></i> is the use of the
+      word for a year, and <i>y</i> is the total number of years (almost always 29, except for very new words). This
+      gives us a starting point for its absurdity, which is then modified by our three subcomponents.
+    </p>
+    <img src="/public/defenestration/frequency.jpg">
+    <p>
+      Combining these, we have the full equation for the Defenestration Score/Word Absurdity
+      index. All of these data points on a word come together and spit out a single number that represents a
+      word. Higher is more absurd, lower is more reasonable.
+    </p>
+    <img style="width: 100%; max-width: 800" src="/public/defenestration/full.jpg">
+    <br>
+    <p>
+      One could argue that this scoring system is entirely subjective and quantifying words into a
+      single number is an impossible task. They could point out that I do not account for every possible
+      metric a word may have. They would be right in saying that the Defenestration Score has no
+      equivalents, no verification, and no real use cases. It does, however, have the uncanny ability to
+      immensely amuse those who see it while they also question why I would ever develop such a
+      measurement. This score will not cause Merriam-Webster to throw out words like “ophiophagus” or
+      “bunchberries”, nor will it perfectly identify the relative usefulness of every English word. With such
+      high scorers as “tizzies”, “antigram”, and “theologizer”, its entertainment value is much greater than its
+      applicability, but this gets at what the Defenestration Score truly is: an in-depth answer to an offhand
+      question about the world.
+    </p>
+  ]]></description>
     <category>Linguistics</category>
     <link>https://eleanorkolson.com/stuff/defenestrationIndex.html</link>
     <guid>https://eleanorkolson.com/stuff/defenestrationIndex.html</guid>
@@ -36,7 +123,95 @@
   </item>
   <item>
     <title>Skewax</title>
-    <description>A web-based IDE for embedded programming, and first lessons in building for someone else.</description>
+    <description><![CDATA[    
+    <small>A web-based IDE for embedded programming, and first lessons in building for someone else.</small>
+    <h2>The Premise</h2>
+    <p>Back in high school, I took an introductory robotics class. Now, I'm sure some people reading this 
+    has something of a similar experience, perhaps with arduino's or even some block based programming language. Unfortunately,
+    my school had a collection of boards build on the <a href="https://www.parallax.com/product/basic-stamp-2-microcontroller-module/">Parallax BS2</a>, 
+    a surprisingly capable device with one major flaw: programming it. To my knowledge, the only complete language to be supported on this microcontroller is PBasic, a 
+    variant of Basic which wouldn't be entirely unacceptable if there were a halfway decent way to write and compile it. To write programs for this device, we used the Parallax IDE, available as a Chrome App. 
+    If you've heard of Chrome Apps before, you may know that they were sunsetted a number of years ago. This was set to happen just as I was finishing that robotics course.
+    </p>
+    <p>
+    Despite the looming dissapearance of the one tool that allowed students to write and build code for these boards (besides a falling-apart native app that we couldn't run on our school-provided chromebooks),
+    I was by no means mourning the loss of this product. It was bug ridden, its UI needed some serious work, and for gods sake it was a <i>Chrome App</i>. Something new needed to take its place.
+    </p>
+    <h2>The Name</h2>
+    <p>
+    First, I should mention the name. It began when I tried to fix some of my problems with the Parallax IDE. Luckily, the IDE is <a href="https://github.com/parallaxinc/Parallax-IDE">open source</a>, and since a Chrome App is largely a <a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/What_is_a_progressive_web_app">PWA</a>,
+    it was simple enough to hack on. I tried to fix a number of problems I had with the UI, and dubbed the slightly improved version "Perpendicullax". I used this for a month or two in that robotics class,
+    and I thought the successor would need to continue the angle name series. Thus, Skewax.
+    </p>
+    <h2>The Product</h2>
+    <p>
+      Skewax is build entirely as a client-side react application. I chose to operate it this way because of my concerns with holding student data (something I've had another run in with, but that's a story for another day).
+      Instead, all stored files are either in a localstorage based scratch pad, or stored in Google Drive. This had the added benefit of these files being accessible in drive, allowing a student to theoretically submit them directly
+      to Google Classroom, the submission platform my high school used.
+    </p>
+    <p>
+      Implementing a connection with Google Drive APIs is surprisingly simple! While it is <i>technically depracated</i>, simple token sign in flows are still possible, and its what I used for this project. They require no middleman server,
+      and allow for completely client-side application development (again, a keystone of school system approval). Drive APIs also allow you to specify permissions such that an application can create files and modify the ones it created, but
+      the application has no way of modifying existing files in the drive.
+    </p>
+    <p>
+      The coding window itself is standard fare, using codemirror 6 with a slapdash <a href="https://github.com/Skewax/frontend/blob/main/src/components/pbasicrules.js">regex-based</a> syntax highlighting system.
+      The compiler also runs locally, and is mostly the <a href="https://github.com/parallaxinc/PBASIC-Tokenizer/tree/Dev-Version-1.3">original PBasic compiler</a>, written in C++. As such, the code is compiled to 
+      WebAssembly, and spits out a usable to flash onto the device.
+    </p>
+    <p>
+      To actually get data onto the microcontroller, Skewax uses the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Serial_API">Web Serial API</a>. While by no means baseline supported, it's on desktop Chromium
+      and that was enough for me! This allows the browser to directly interface with serial devices in a surprisingly natural manner. Through this API, Skewax is able to do the magic handshake necessary to enter the flashing mode of the BS2,
+      and with that it can send the compiled code to the device. The Web Serial API also allows for back and forth communication, so getting a text feed from the microcontroller is possible.
+    </p>
+    <p>
+      All in all, Skewax turned out to be a surprisingly functional piece of software. While by no means a <i>quality</i> product, it was leagues better than Parallax's attempt, and extended the life of those BS2 microcontrollers a few extra years.
+    </p>
+    <h2>The Implementation</h2>
+    <p>
+      While Skewax ended up as a thoroughly acceptable piece of software, its development process was 2 steps short of nightmare territory. First, for some reason the  <a href="https://github.com/parallaxinc/PBASIC-Tokenizer/tree/Dev-Version-1.3">original PBasic compiler</a>, despite being used
+      by the original Parallax IDE, was somehow incompatible3 with browser execution via WebAssembly. Luckily, I summoned my inner <a href="https://en.wikipedia.org/wiki/Green_Monster_(automobile)#Land_speed_racing">Art Arfons</a> and began pulling bits out until it worked. To this day,
+      I'm not sure exactly what caused the incompatibility, but if you scroll through that monolithing beast of a C++ file I hope you'll understand why I didn't attempt to fully comprehend it. 
+    </p>
+    <p>
+      Unfortunately, compilation was the easy part. If you were wondering how I implemented and found out about the secret handshake with the microncontroller earlier, good! Now you've experienced what my life was like for a month.
+      Nowhere in public documentation could I find the flashing protocol of this device. After months of flailing around in the terminal, attempting to press every possible button to turn this device on, I ended up reaching out to an employee of Parallax,
+      who graciously gave me a copy of a document he found which included the flashing protocol. Unfortunately, his emails have been lost to the void of my mail client, but the protocol goes as such:
+      <ul>
+        <li>Set the serial break signal</li>
+        <li>unset the serial DTR signal (if high)</li>
+        <li>set the serial DTR signal</li>
+        <li>wait 50ms</li>
+        <li>unset the serial break signal</li>
+        <li>flush the buffer</li>
+        <li>Identify the board, by sending 0x42, 0x53, 0x32. After each byte, read the value of the returned byte. Then, send 0x00. Finally, read the response from the board, it should be [190, 173, 206] for the revision of the BS2 we used.</li>
+      </ul>
+      For a complete implementation, see <a href="https://github.com/Skewax/frontend/blob/main/src/components/writeData.js">my implementation for Skewax</a>.
+    </p>
+    <h2>The Lessons</h2>
+    <p>
+      TLDR: making things is hard, especially when it's for someone else, but it is absolutely worth it.
+    </p>
+    <p>
+      This was one of my first "real" projects, and as such led to many of my first "real" lessons. First, I learnt about the difficulty of building off of someones elses work, especially when they didn't intend you to.
+      While it may seem as though sometihng you're working on will only be used by you, it's entirely possible someone else will come around and try to use it. When building APIs for myself, I significantly more often consider
+      that stranger than I would have without this project. This website is a great example. Everything used to power this website (which isn't much) is publicly accessible in itself. Even the <a href="https://eleanorkolson.com/stuff/generator.py">generator for the RSS feed and blog index</a> are uploaded.
+      Obviously, those who have spent a lot of time in a professional software development environment are (hopefully) aware of how to write things for others, and yet in our personal projects we discard many of those lessons. One advantage of 
+      writing usable code by a stranger is that, oftentimes, in 6 months I am that very stranger. Write code for others, even if it's for yourself.
+    </p>
+    <p>
+      When starting out on Skewax, I had many grand plans of how I could integrate with other services to make the application better for students. Almost all of them, however, were stopped in their tracks by one mandate: do not require legal to sign off on this.
+      While especially true when dealing with student data and FERPA, this is worthy of incorporating in all my future projects. Dealing with possessing student data (again, I really need to tell that story) is a <b>bad idea</b>.
+      Also, privacy is good, I think! I do not subscribe to the belief that more data is more better, and I don't think applications should design around it. Skewax, for instance, is completely self hostable. In fact, that is what my high school chose to do.
+      Software should meet people where they are, and stretch their comfort minimally.
+    </p>
+    <p>
+      Despite being hamstrung a few times throughout this project, it was worth it. Keeping in contact with the admins at the school for years was worth it. If you can solve someone's problem, do it!
+    </p>
+    <p>
+      If you're interested in Skewax, or you have a BS2 lying around (for some reason), you can <a href="https://skewax.com">check it out!</a>. I don't imagine I'll let that domain lapse anytime soon, for nostalgia sake as much as anything.
+    </p>
+  ]]></description>
     <category>Programming</category>
     <link>https://eleanorkolson.com/stuff/skewax.html</link>
     <guid>https://eleanorkolson.com/stuff/skewax.html</guid>

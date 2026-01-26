@@ -5,6 +5,7 @@ from datetime import datetime, timezone
 from email.utils import format_datetime
 from html.parser import HTMLParser
 import os
+import re
 
 class Parser(HTMLParser):
     tag = None
@@ -32,15 +33,21 @@ class Parser(HTMLParser):
 def rss_categories(category_string):
     return "\n    ".join([f'<category>{f}</category>' for f in category_string.split(", ")])
 
+def rss_processed_page_contents(page_string):
+    main_contents = next(re.finditer('<main>\n([\s\S]*)</main>', page_string)).group(1)
+    main_contents = re.sub("<h1 style=\"margin-bottom: 0\">.*</h1>", "", main_contents)
+    return main_contents
+
 def rss_contents(file):
     with open(file, "r") as file_contents:
+        contents = file_contents.read()
         parser = Parser()
-        parser.feed(file_contents.read())
+        parser.feed(contents)
         utc_dt = datetime.utcfromtimestamp(os.stat(file).st_birthtime).replace(tzinfo=timezone.utc)
         published_date = format_datetime(utc_dt, usegmt=True)
         return f"""  <item>
     <title>{parser.title}</title>
-    <description>{parser.description}</description>
+    <description><![CDATA[{rss_processed_page_contents(contents)}]]></description>
     {rss_categories(parser.category)}
     <link>https://eleanorkolson.com/stuff/{file}</link>
     <guid>https://eleanorkolson.com/stuff/{file}</guid>
