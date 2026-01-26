@@ -4,6 +4,7 @@
   <meta name="description" content="A web-based IDE for embedded programming, and first lessons in building for someone else.">
   <meta name="keywords" content="Programming">
   <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="/public/favicon.ico" type="image/x-icon">
   <style>
   body {
     margin: auto;
@@ -23,7 +24,8 @@
     <p>Back in high school, I took an introductory robotics class. Now, I'm sure some people reading this 
     has something of a similar experience, perhaps with arduino's or even some block based programming language. Unfortunately,
     my school had a collection of boards build on the <a href="https://www.parallax.com/product/basic-stamp-2-microcontroller-module/">Parallax BS2</a>, 
-    a surprisingly capable device with one major flaw: programming it. To write programs for this device, we used the Parallax IDE, available as a Chrome App. 
+    a surprisingly capable device with one major flaw: programming it. To my knowledge, the only complete language to be supported on this microcontroller is PBasic, a 
+    variant of Basic which wouldn't be entirely unacceptable if there were a halfway decent way to write and compile it. To write programs for this device, we used the Parallax IDE, available as a Chrome App. 
     If you've heard of Chrome Apps before, you may know that they were sunsetted a number of years ago. This was set to happen just as I was finishing that robotics course.
     </p>
     <p>
@@ -37,8 +39,73 @@
     and I thought the successor would need to continue the angle name series. Thus, Skewax.
     </p>
     <h2>The Product</h2>
+    <p>
+      Skewax is build entirely as a client-side react application. I chose to operate it this way because of my concerns with holding student data (something I've had another run in with, but that's a story for another day).
+      Instead, all stored files are either in a localstorage based scratch pad, or stored in Google Drive. This had the added benefit of these files being accessible in drive, allowing a student to theoretically submit them directly
+      to Google Classroom, the submission platform my high school used.
+    </p>
+    <p>
+      Implementing a connection with Google Drive APIs is surprisingly simple! While it is <i>technically depracated</i>, simple token sign in flows are still possible, and its what I used for this project. They require no middleman server,
+      and allow for completely client-side application development (again, a keystone of school system approval). Drive APIs also allow you to specify permissions such that an application can create files and modify the ones it created, but
+      the application has no way of modifying existing files in the drive.
+    </p>
+    <p>
+      The coding window itself is standard fare, using codemirror 6 with a slapdash <a href="https://github.com/Skewax/frontend/blob/main/src/components/pbasicrules.js">regex-based</a> syntax highlighting system.
+      The compiler also runs locally, and is mostly the <a href="https://github.com/parallaxinc/PBASIC-Tokenizer/tree/Dev-Version-1.3">original PBasic compiler</a>, written in C++. As such, the code is compiled to 
+      WebAssembly, and spits out a usable to flash onto the device.
+    </p>
+    <p>
+      To actually get data onto the microcontroller, Skewax uses the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Serial_API">Web Serial API</a>. While by no means baseline supported, it's on desktop Chromium
+      and that was enough for me! This allows the browser to directly interface with serial devices in a surprisingly natural manner. Through this API, Skewax is able to do the magic handshake necessary to enter the flashing mode of the BS2,
+      and with that it can send the compiled code to the device. The Web Serial API also allows for back and forth communication, so getting a text feed from the microcontroller is possible.
+    </p>
+    <p>
+      All in all, Skewax turned out to be a surprisingly functional piece of software. While by no means a <i>quality</i> product, it was leagues better than Parallax's attempt, and extended the life of those BS2 microcontrollers a few extra years.
+    </p>
     <h2>The Implementation</h2>
+    <p>
+      While Skewax ended up as a thoroughly acceptable piece of software, its development process was 2 steps short of nightmare territory. First, for some reason the  <a href="https://github.com/parallaxinc/PBASIC-Tokenizer/tree/Dev-Version-1.3">original PBasic compiler</a>, despite being used
+      by the original Parallax IDE, was somehow incompatible3 with browser execution via WebAssembly. Luckily, I summoned my inner <a href="https://en.wikipedia.org/wiki/Green_Monster_(automobile)#Land_speed_racing">Art Arfons</a> and began pulling bits out until it worked. To this day,
+      I'm not sure exactly what caused the incompatibility, but if you scroll through that monolithing beast of a C++ file I hope you'll understand why I didn't attempt to fully comprehend it. 
+    </p>
+    <p>
+      Unfortunately, compilation was the easy part. If you were wondering how I implemented and found out about the secret handshake with the microncontroller earlier, good! Now you've experienced what my life was like for a month.
+      Nowhere in public documentation could I find the flashing protocol of this device. After months of flailing around in the terminal, attempting to press every possible button to turn this device on, I ended up reaching out to an employee of Parallax,
+      who graciously gave me a copy of a document he found which included the flashing protocol. Unfortunately, his emails have been lost to the void of my mail client, but the protocol goes as such:
+      <ul>
+        <li>Set the serial break signal</li>
+        <li>unset the serial DTR signal (if high)</li>
+        <li>set the serial DTR signal</li>
+        <li>wait 50ms</li>
+        <li>unset the serial break signal</li>
+        <li>flush the buffer</li>
+        <li>Identify the board, by sending 0x42, 0x53, 0x32. After each byte, read the value of the returned byte. Then, send 0x00. Finally, read the response from the board, it should be [190, 173, 206] for the revision of the BS2 we used.</li>
+      </ul>
+      For a complete implementation, see <a href="https://github.com/Skewax/frontend/blob/main/src/components/writeData.js">my implementation for Skewax</a>.
+    </p>
     <h2>The Lessons</h2>
+    <p>
+      TLDR: making things is hard, especially when it's for someone else, but it is absolutely worth it.
+    </p>
+    <p>
+      This was one of my first "real" projects, and as such led to many of my first "real" lessons. First, I learnt about the difficulty of building off of someones elses work, especially when they didn't intend you to.
+      While it may seem as though sometihng you're working on will only be used by you, it's entirely possible someone else will come around and try to use it. When building APIs for myself, I significantly more often consider
+      that stranger than I would have without this project. This website is a great example. Everything used to power this website (which isn't much) is publicly accessible in itself. Even the <a href="https://eleanorkolson.com/stuff/generator.py">generator for the RSS feed and blog index</a> are uploaded.
+      Obviously, those who have spent a lot of time in a professional software development environment are (hopefully) aware of how to write things for others, and yet in our personal projects we discard many of those lessons. One advantage of 
+      writing usable code by a stranger is that, oftentimes, in 6 months I am that very stranger. Write code for others, even if it's for yourself.
+    </p>
+    <p>
+      When starting out on Skewax, I had many grand plans of how I could integrate with other services to make the application better for students. Almost all of them, however, were stopped in their tracks by one mandate: do not require legal to sign off on this.
+      While especially true when dealing with student data and FERPA, this is worthy of incorporating in all my future projects. Dealing with possessing student data (again, I really need to tell that story) is a <b>bad idea</b>.
+      Also, privacy is good, I think! I do not subscribe to the belief that more data is more better, and I don't think applications should design around it. Skewax, for instance, is completely self hostable. In fact, that is what my high school chose to do.
+      Software should meet people where they are, and stretch their comfort minimally.
+    </p>
+    <p>
+      Despite being hamstrung a few times throughout this project, it was worth it. Keeping in contact with the admins at the school for years was worth it. If you can solve someone's problem, do it!
+    </p>
+    <p>
+      If you're interested in Skewax, or you have a BS2 lying around (for some reason), you can <a href="https://skewax.com">check it out!</a>. I don't imagine I'll let that domain lapse anytime soon, for nostalgia sake as much as anything.
+    </p>
   </main>
   <footer>
     <a href="/stuff">To the blog!</a>

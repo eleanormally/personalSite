@@ -13,6 +13,8 @@ class Parser(HTMLParser):
     category = ""
     def handle_starttag(self, tag, attrs):
         if tag == "meta":
+            if attrs[0][0] != "name":
+                return
             self.tag = attrs[0][1]
             self.handle_data(attrs[1][1])
         self.tag = tag
@@ -61,7 +63,7 @@ def should_include(file):
         "feed.xml",
         "feed",
     ]
-    return not (file in excludedFiles)
+    return file not in excludedFiles and "_draft" not in file
 
 def generate_rss_items():
     files = os.listdir(os.getcwd())
@@ -85,6 +87,11 @@ def generate_rss_feed():
   <atom:link href="http://eleanorkolson.com/feed" rel="self" type="application/rss+xml" />
   <title>Eleanor Olson</title>
   <link>https://eleanorkolson.com</link>
+  <image>
+    <url>https://eleanorkolson.com/public/icon.png</url>
+    <title>Eleanor Olson</title>
+    <link>https://eleanorkolson.com</link>
+  </image>
   <pubDate>{published_date}</pubDate>
   <language>en-us</language>
   <copyright>© {datetime.now().year} Eleanor Olson</copyright>
