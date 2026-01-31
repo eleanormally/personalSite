@@ -50,7 +50,6 @@ def rss_contents(file):
     {rss_categories(parser.category)}
     <link>https://eleanorkolson.com/stuff/{file}</link>
     <guid>https://eleanorkolson.com/stuff/{file}</guid>
-    <author>eleanorkolson@gmail.com (Eleanor Olson)</author>
     <pubDate>{published_date}</pubDate>
   </item>
 """
