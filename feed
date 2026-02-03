@@ -9,12 +9,180 @@
     <title>Eleanor Olson</title>
     <link>https://eleanorkolson.com</link>
   </image>
-  <pubDate>Mon, 26 Jan 2026 02:54:44 GMT</pubDate>
+  <pubDate>Tue, 03 Feb 2026 02:40:47 GMT</pubDate>
   <language>en-us</language>
   <copyright>© 2026 Eleanor Olson</copyright>
   <description>
     Eleanor's personal blog about various things. Probably mostly transit.
   </description>
+  <item>
+    <title>What could a Geary Muni Metro Line Look Like?</title>
+    <description><![CDATA[    <small>A potential alignment, and a plea for elevated.</small>
+    <p>
+      San Francisco's Municipal Transportation Agency (Muni) has been looking to add a subway to Geary <a href="https://en.wikipedia.org/wiki/Geary_Subway#Early_plans">since before the street's streetcars were decomissioned</a>.
+      That's right! Geary once had street running trains along the corridor, part of the rich network of the city's cable car system. Unfortunately, no system has since been built and Geary
+      remains the city's <a href="https://www.sfgate.com/travel/resources/transit/article/San-Francisco-most-crowded-bus-routes-Muni-SFMTA-14057322.php">most congested bus corridor</a>. In recent
+      years, the city has commissioned a new study on a potential Geary subway. While certainly not in the near future, this line has the potential to transform the city's transportation network,
+      but could easily turn into another all-too-common overpriced and underdelivered american public transportation project. Let's look into the history of this corridor, where we are now, what Geary could and should
+      look like in the future, and what it could mean for the future of the city and its transit.
+    </p>
+    <h2>Geary's (and San Francisco's) Storied Transit History</h2>
+    <p>
+      San Francisco, like many cities in the United States, once had a significantly larger public transportation network than it does now. This network is most classically remembered with the still-preserved cable car network,
+      but the city once had a thriving electric streetcar network as well. On Geary, there was at one point 3 Muni streetcar lines: the A, B, and C. The A line ran from Market and Kearny to Fulton Street, and was the first
+      streetcar line operated by Muni. The B ran from the ferry building down Market Street, eventually turning onto Geary and ending at the Playland amusement park (located by Ocean Beach). The C started at the Ferry Building,
+      traveling down market street, turning onto 2nd Avenue, and then continuing along Cornwall and California Avenue to Lands End. Additionally, there was the D, which ran from the Ferry Building along Market St, turning onto
+      Geary briefly, and then turning once more onto Van Ness. While this technically uses Geary, it is a very different use case of the street and won't be discussed further here.
+    </p>
+    <p>
+      By 1956, all 3 of these lines were gone.
+    </p>
+    <h2>Today's Study</h2>
+      <p>
+        Today's study does not aim to directly replace any of the original streetcar branches. As outlined on the <a href="https://www.sfcta.org/sites/default/files/2022-04/SFCTA_Board_PropKGroupedAllocationsPRESENTATION_2022-04-12.pdf">SFCTA project document</a>, the plan is to go from
+        Market Street along Geary, and at some point end up on 19th Avenue.
+      </p>
+      <img src="/public/gearyAlignments/sfcta_alignment.png" style="max-width:400px"><br>
+      <caption>The potential alignment area, from <a href="https://www.sfcta.org/projects/geary19th-avenue-subway-and-regional-connections-study#panel-overview">SFCTA</a></caption>
+      <p>
+        An alignment following this area would provide 2 benefits:
+      </p>
+      <ul>
+        <li>A connection to riders along the Geary corridor</li>
+        <li>A "ring" line around San Francisco's west side, allowing travellers to avoid connecting downtown</li>
+      </ul>
+      <p>
+        Both of these are important goals, and I think that an alignment here would be wonderful. That being said, it is no guarantee that it will happen.
+      </p>
+    <h2>We've Been Here Before</h2>
+      <p>
+        As mentioned before, this is not the first time a Geary subway has been introduced. In 1995, SFCTA released the 4 corridor plan, which outlined the transit corridors that should be prioritized
+        as part of the recently passed Proposition B funding measure. Unfortunately, this was whittled down to BRT along the line, which exists there today. As the current crowding of that BRT shows, however,
+        this is not enough transit service. San Francisco needs to add transportation capacity to this corridor, and rail is the best way to do that.
+      </p>
+    <h2>Avoiding Past Pitfalls</h2>
+      <p>
+        When discussing potential new Muni Metro service in San Francisco, one past project comes to many people's minds: the Central Subway. This project, a 1.7 mile long extension, cost $1.5 billion and took
+        12 years to complete construction. If we are serious about building new transit infrastructure in the City, we must confront the cost problems our the city's past. There are 2 ways I propose to deal with cost
+        problems: Elevated and automated rail.
+      </p>
+    <h2>Elevated Rail</h2>
+      <p>
+        When discussing the cost of buiding rail, those involved with transit generally understand that deep, underground subway systems are more expensive. There are generally a few reasons for this. First is the 
+        method of tunnel construction. The two primary techniques for building an underground rail line are tunnel boring and cut-and-cover. Bored tunnels use expensive machines which dig out the material in front of them,
+        and allow for very deep construction while also not affecting the surface above them. Their drawback, however, is in cost. To some extent this cost is due to the actual tunnel boring process, but much of it is 
+        instead due to the station construction. Building a deep station that connects to the surface is naturally more complicated and expensive than building a shallow one. Cut and cover, by contrast, is for much shallower 
+        tunnels. Instead of digging entirely underground, this technique digs a trench from the surface, creates the tunnel, and then adds a "roof" on top. This is generally quicker and cheaper, but comes at the cost of more
+        surface disruption.
+      </p>
+      <p>
+        If a rail line is built elevated, however, many of the issues of both can be mitigated. An elevated line can be built both faster and cheaper than underground lines, but offers many of the same benefits. Our primary goal
+        in a new build should be grade separation (no crossing cars or crosswalks), and both tunneling and elevation can achieve that. To San Francisco, grade separation is something of a novel concept. None of the Muni lines run
+        completely grade separated, and have to stop for car and pedestrian traffic. This causes slowdowns and prevents higher frequency. Additionally, it makes full automation impossible.
+      </p>
+    <h2>Automated Rail</h2>
+      <p>
+        Automation is the second pillar of decreasing costs. While elevated rail can prevent upfront costs, automated rail will help reduce ongoing costs. Currently (2026), Muni is at risk of <a href="connectbayarea.com">significant service cuts</a> due to 
+        a lack of consistent funding. They are currently looking for ways to cut costs, and one of those is to reduce service. We should plan for this kind of crisis in the future, and one way to do that is with automated metro.
+      </p>
+      <p>
+        Muni is currently beginning its <a href="https://www.sfmta.com/projects/train-control-upgrade-project">Train Control Upgrade Project</a>, updating the way that trains run automatically in the subways, and eventually semi automatically on the surface.
+        They have chosen Hitachi's SelTrac system to accomplish this. While they will not be using it as such, SelTrac is capable of doing entirely autonomous operation, and could be reused on an autonomous new line without new software. This automated Geary 
+        line would not need a driver, and therefore could be much more frequent than other Muni lines. It would require <a href="https://en.wikipedia.org/wiki/Platform_screen_doors">platform screen doors</a>, but these would be trivial to add to a new 
+        subway line.
+      </p>
+    <h2>What would this look like</h2>
+      <p>
+        Now that we've talked about what technologies we might use, lets see what a Geary subway might look like. rst, I should backtrack slightly on my advocating for elevated rail. While I do think a significant
+        portion of the line should be elevated, this is not feasible throughout. Specifically, the downtown area has streets that are too narrow and corners that are too tight to make elevated rail feasible. This will be 
+        the most complicated (and expensive) segment, so lets start there.
+      </p>
+      <h3>A Regional Connection</h3>
+      <p>
+        First, I have designed this line to connect to the (Salesforce) Transit Center. While not a hub currently, the Geary subway would likely be built after Caltrain had been connected to the transit center, and perhaps
+        even California High Speed Rail. This makes a direct Muni connection key, and we will build the station nearby. Specifically, this station would be built on 2nd Street, with the station box between Minna and Natoma. 
+        While this is not directly underneath the public structure, it would be simple for this to connect underground directly to the transit center. 
+        For this line, we are going to assume an approximate station length of 300 feet. This would allow for 3 car trains to stop at stations, but due to the frequency that automation would allow I do not think that this configuration would be 
+        common. This station would be dug very shallow. While we will have to dive to cross market street, we have 800 feet to descend to a ceiling depth of 45 feet, making this very feasible even with a nearly surface level station.
+      </p>
+      <img src="/public/gearyAlignments/transitcenterstation.jpg" style="max-width:400px">
+      <h3>Crossing Market Street</h3>
+      <p>
+        After the transit center station, we will dive to cross Market Street. This requires a 45 foot ceiling depth, which is easily achievable with a tunnel boring machine (most likely a twin bore like used on the Central Subway). One we cross market street,
+        we will turn onto Post Street, and stopping at a new station which would connect directly to Montgomery. This would likely be the most complicated station of the project, as it would be dug to a depth of 45 feet. This would connect directly to the 
+        existing Montgomery station, ideally inside of the fare gates, but outside would also be acceptable.
+      </p>
+      <img src="/public/gearyAlignments/montgomery.jpg" style="max-width:400px">
+      <h3>Wait, Post Street? I thought this was a Geary subway!</h3>
+      <p>
+        While this section of my alignment goes along Post, a significant portion goes along Geary. Post is 1 block north of Geary in the downtown, allowing for very similar connections. Its primary benefit is the ease of connection to Montgomery Station and turning
+        towards the Transit Center.
+      </p>
+      <h3>Continuing Westward</h3>
+      <p>
+        At this point, we will assume approximate half-mile station spacing. This is a common pattern, and strikes a balance between metro speed and closeness to a stop. Given that, we will continue along Post, with our next stop straddling the block between Mason and Taylor Street.
+        We will then continue west, where a half mile stop would be at Polk St, but I will extend it slightly so that our station goes in between Polk and Van Ness. When possible, I am trying to position stations in between streets rather than crossing them. This is to minimize the 
+        impact of consturction to surface traffic (cars, pedestrians, and businesses). By extending it slightly, we also connect directly to Van Ness, a major corridor. The line along here will continue to be dug with a TBM (Tunnel Boring Machine), but should be kept as shallow as possible
+        to minimize station complexity and cost.
+      </p>
+      <h3>Getting Elevated</h3>
+      <p>
+        Now that we have escaped the downtown, we need to elevate the line. We will first continue our TBM along Post, turning onto Peter York Way to get onto Geary. Once we have turned onto geary, we will elevate the line between Gough Street and Laguna Street.
+        If we presume that our elevated metro will be around 20 feet in the air, and our tunnel boring machine is at -10 feet below the surface, we will need to traverse 20 vertial feet along this block. Luckily, our 885 feet of horizontal distance allow that easily,
+        with the current Seimens S200 (LRV4) used on Muni Metro having a maximum grade of 10% (allowing theoretically 85 feet of vertical change in this section). Once we are elevated, we will quickly hit our first elevated station between Webster and Laguna, directly adjacent
+        to the Peace Pagoda and Japan Center Mall.
+      </p>
+      <img src="/public/gearyAlignments/elevating.jpg" style="max-width:600px">
+      <h3>Geary</h3>
+      <p>
+        The stops along Geary are very subject to interpretation. I mostly followed the half-mile spacing guidelines, and this led to stops at the following intersections:
+      </p>
+      <ul>
+        <li>Divisadero</li>
+        <li>Masonic Ave</li>
+        <li>Jordan Ave</li>
+        <li>6th Ave (adjacent to a Kaiser Health Center)</li>
+        <li>Park Presidio Blvd</li>
+      </ul>
+      <p>
+        This last stop is where we turn into Golden Gate Park to begin south. I have chosen Park Presidio rather than 25th Ave (the other direct connection) because it is wider, 
+        allowing for a faster turn and no eminent domain. If we were to turn on 25th Ave it would grant us another stop on Geary, but would slow down trains and require the purchase of a Jiffy Lube. 
+        We will then follow the existing path of Park Presidio, potentially stopping in Golden Gate Park (although this is very optional).
+      </p>
+      <h3>19th Ave</h3>
+      <p>
+      Once we have traversed Golden Gate Park (with or without a station), we will end up on 19th Avenue. Naturally, we will want to make sure that we connect with the N and L existing muni lines 
+      which stop along this corridor. Luckily, since these are street running lines, we will simply go above them and avoid worrying about elevation changes. Our first stop should be 19th and Judah, 
+      connecting to the N. This would be half a mile from a theoretical Golden Gate Park stop, 1.35 miles from a theoretical Geary Presidio stop, and the same 1.35 miles from a theoretical Geary 25th stop.
+      We would then have half mile spacing at 19th and Noriega, a smaller distance (2000 feet) to 19th and Quintana, followed by 19th and Taravel at another 2000 feet away. The second 2 stops are slightly 
+      closer together to ensure that we connect to the L at 19th and Taravel. We then have a stop between Wawona and Sloat, adjacent to the San Francisco Croquet Club, and will then join up with the 
+      M- Ocean View light rail right of way. We will parallel the stops of the M, stopping at Stonestown and then Holloway, but depart at Junipero. 
+      It still makes sense to have a station around Junipero, but this new line will turn onto Junipero. Therefore, it makes sense to have a stop right before we split off from the M right of way.
+      Our new line will then cross Brotherhood Way, moving eastward to go down Arch St, making a stop at Arch and Alemany. Finally, it will continue across to Worcester Ave, connecting to the Daly City
+      BART station. The penultimate stop in Arch and Alemany is very optional, and the ROW could instead go exclusively along Junipero directly to Daly City.
+      </p>
+    <h2>Conclusion</h2>
+      <p>
+        This alignmenet represents what I think would be a reasonable balance of cost and utility. Keeping the entire line grade separated would allow for a new, hyper frequent, service that could
+        become the backbone of San Francisco's cross-city travel. While we don't yet know what SFCTA has decided as their ideal alignment, I hope that they consider these sorts of technologies
+        and station locations.
+      </p>
+      <br>
+      <br>
+      <img src="/public/gearyAlignments/geographic.jpg" style="max-width:800px">
+      <caption>A geographic map of this new line.</caption>
+      <br>
+      <br>
+      <img src="/public/gearyAlignments/metro.png" style="max-width:800px">
+      <caption>A mock Muni Metro map including this new line.</caption>
+
+  ]]></description>
+    <category>Transit</category>
+    <category>San Francisco</category>
+    <link>https://eleanorkolson.com/stuff/gearyAlignments.html</link>
+    <guid>https://eleanorkolson.com/stuff/gearyAlignments.html</guid>
+    <pubDate>Mon, 26 Jan 2026 02:52:28 GMT</pubDate>
+  </item>
   <item>
     <title>Hanziyu</title>
     <description><![CDATA[    <small>A satirical language built around pronuncing the written form of 汉字</small>
@@ -25,7 +193,6 @@
     <category>Conlangs</category>
     <link>https://eleanorkolson.com/stuff/hanziyu.html</link>
     <guid>https://eleanorkolson.com/stuff/hanziyu.html</guid>
-    <author>eleanorkolson@gmail.com (Eleanor Olson)</author>
     <pubDate>Sun, 25 Jan 2026 22:36:19 GMT</pubDate>
   </item>
   <item>
@@ -116,7 +283,6 @@
     <category>Linguistics</category>
     <link>https://eleanorkolson.com/stuff/defenestrationIndex.html</link>
     <guid>https://eleanorkolson.com/stuff/defenestrationIndex.html</guid>
-    <author>eleanorkolson@gmail.com (Eleanor Olson)</author>
     <pubDate>Sun, 25 Jan 2026 03:47:51 GMT</pubDate>
   </item>
   <item>
@@ -212,7 +378,6 @@
     <category>Programming</category>
     <link>https://eleanorkolson.com/stuff/skewax.html</link>
     <guid>https://eleanorkolson.com/stuff/skewax.html</guid>
-    <author>eleanorkolson@gmail.com (Eleanor Olson)</author>
     <pubDate>Sun, 25 Jan 2026 03:33:30 GMT</pubDate>
   </item>
   </channel>
