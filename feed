@@ -9,16 +9,204 @@
     <title>Eleanor Olson</title>
     <link>https://eleanorkolson.com</link>
   </image>
-  <pubDate>Tue, 03 Feb 2026 02:40:47 GMT</pubDate>
+  <pubDate>Sat, 06 Jun 2026 18:53:58 GMT</pubDate>
   <language>en-us</language>
   <copyright>© 2026 Eleanor Olson</copyright>
   <description>
     Eleanor's personal blog about various things. Probably mostly transit.
   </description>
   <item>
+    <title>Deinterlining the J - Church: A Muni Metro Proposal</title>
+    <description><![CDATA[<p>
+  In February of 2026, we got a glimpse into the 
+  <a href="https://www.sfcta.org/projects/geary19th-avenue-subway-and-regional-connections-study#panel-reports-documents]">
+      Geary subway plans du jour
+  </a> (perhaps more appropriately du décennie), 
+  and it’s gotten me thinking about the Muni Metro network once again. More specifically, I have been thinking about the immense interlining of the system. 
+  The new(ish) Central subway, despite its flaws, has worked towards de-interlining the system, and a Geary subway could be another step in the right direction 
+  (if they go with rapid transit instead of commuter rail, but thats a topic for another blog post), but I think that we can go further.
+</p>
+
+<img-container>
+  <img src="/public/jDeinterlining/muni-metro.jpg">
+  <div>
+  <caption>The extent of the systems interlining, for those not aware (<a href="https://www.sfmta.com/maps/muni-metro-map">SFMTA</a>)</caption>
+  </div>
+</img-container>
+
+<p>
+  Recently, I stumbled upon a very old vision for the future of Muni Metro (<a href="http://newmunimetro.com">New Muni Metro</a>). Its key tenant is 100% de-interlining, 
+  replacing service from West Portal to Embarcadero with a new high-floor-only “<span class="route m">M</span> - Market” (not the <span class="route m">M</span> - Ocean View) service. This has some advantages, such as the lack of a stair requirement in
+  the vehicles and the ability to run longer trains, but ultimately I find it hard to imagine getting past committee. 
+  I was, however, inspired by its thoughts on the <span class="route j ">J</span> - Church. 
+</p>
+
+<p>
+  The <span class="route j">J</span> is a bit of an outlier on the Muni Metro network. It is the only non-historic-car line to run exclusively single-car trains, 
+  and is also the least frequent service. Its single-car nature is what drove SFMTA to experiment with cutting it short at Church and making people transfer 
+  (<a href="https://www.sfmta.com/projects/j-church-surface-only-route">SFMTA</a>). This allowed for more, longer trains in the Market Street Subway and higher frequency 
+  <span class="route j">J</span> service, but at the expense of needing a transfer. This change is the first stage of “New Muni Metro’s” proposal, 
+  but with the benefit of hindsight we can see that the idea was not long for this world. I think that part of the problem with this change is that it didn’t offer immediately 
+  and meaningfully better service to those who rode the <span class="route j">J</span>. While improved operations, reduced delays, and slight frequency increases 
+  are a nice benefit, it was not enough to counteract the desire for a 1-seat ride all the way to Embarcadero. This leads me to 3 main pillars I will center in my altered 
+  <span class="route j">J</span> - Church proposal:
+</p>
+
+<h3>
+    1. Provide Meaningfully New Benefits
+</h3>
+
+<p>
+  Beyond improving the current operations, a major change should provide immediately understandable and significant new benefits to those who will experience the drawbacks. Cutting service in the tunnel? You better offer something nice in return. That isn’t to say that we shouldn’t care about improving current operations; rather:
+</p>
+
+<h3>
+  2. Improve Existing Operations
+</h3>
+
+<p>
+  Changes to the network should work to simplify current operations, especially where heavily interlined. 
+  Additionally, it should minimize any added non-service complexity due to the new project. 
+  This would include removing current track paths from routes to yards or creating new track with differing gauge, electrification, or weight allowances.
+</p>
+
+<h3>
+  3. Minimize Construction & Staging Woes
+</h3>
+
+<p>
+  Inevitably, these projects will take a long time, and given the city’s (and the country’s) track record it will probably take longer than projected. Therefore, we should take into account construction disruptions not just in the engineering, but also in the planning.
+</p>
+
+<p>
+  Given these 3 pillars, let’s take a look at what we could do with the <span class="route j">J</span> - Church.
+</p>
+
+<p>
+  Like the plans in New Muni Metro, my proposal centers around a new tunnel built exclusively for <span class="route j">J</span> - Church service. 
+  This tunnel goes from <i>somewhere on the current J’s route before Market Street</i> towards <i>somewhere north</i>. 
+  This tunnel could either go north to Japantown, or extend further to the marina. I think that while eventually it would make sense to go to the marina, 
+  its staging location is less appealing, potentially violating pillar #3. An appealing location for staging the tunnel boring machine (TBM), 
+  which I will assume is a twin bore similar to the Central Subway’s, is on the corner of Geary and Webster, where there exists a large parking lot that could
+  be acquired and temporarily used to launch a TBM.
+  For the Marina launch, the best I’ve found is a multi-story parking lot with a USPS on the ground level on Lombard and Fillmore, which isn’t as far north as 
+  I’d hope it would go. Not exactly prime TBM-launching real estate. There is, of course, also the Safeway at Marina and Laguna, 
+  but since this is going to be soon redeveloped (<a href="https://missionlocal.org/2026/04/marina-safeway-boycott/">Mission Local</a>), I figure it’s a bit too late to alter those building plans. 
+  Therefore, I’m going to focus on a (potentially phase-1) tunnel terminating in Japantown. 
+</p>
+
+<p>
+  This tunnel would start at the aforementioned parking lot, with a Japantown station. This would hopefully connect to a Geary subway station 
+  (see my <a href="https://www.eleanorkolson.com/stuff/gearyalignments">previous blog post</a> for my, admittedly problematic, alignment), 
+  ideally with the Geary subway’s Japantown station including a <span class="route j">J</span> station box in its construction. This station’s exact position should be 
+  left up to the plans of the Geary subway, and I will show its location as approximately the Webster & Geary intersection. 
+</p>
+
+<img-container>
+  <img src="/public/jDeinterlining/tbm-launch.webp">
+  <caption>Surface parking, ripe for replacement. An approximate size of the TBM launch box in said parking lot.</caption>
+</img-container>
+
+<p>
+  From there, the project would travel down Webster, with quite a bit of flexibility. Since we are using a TBM the tunnel can go quite deep; however, 
+  for cost reasons I would prioritize keeping it on the shallow side and following existing road alignments. Therefore, I will have it running along Webster 
+  until Hermann St. or Duboce Ave, where it will have to dive towards a new underground Church station. This may also have more depth considerations and/or move
+  west earlier to avoid the Duboce Portal for the <span class="route n">N</span> and current <span class="route j">J</span>. This new Church station 
+  would be beneath the existing tunnels at Church, and would likely have 
+  to be built out with some sort of underground mining such as SEM rather than cut and cover. Ideally, this would connect directly to the platforms at the current 
+  Church station, sharing a region within fare gates. Between these 2 stations, I’d aim for 2 new stations, perhaps around McAllister and Haight for their bus connections 
+  and roughly balanced distance. Ideally these stations would be constructed with cut and cover as shallow as possible to minimize cost, but of course there is a
+  balance to be had here with pillar #3. 
+</p>
+
+<p>
+  After Church station is where my proposal differs explicitly from the New Muni Metro plan. That plan calls for a portal as far back as Dolores park between 
+  17th and 18th St, presumably for the natural elevation change there making a portal come out of the hill. I, however, would instead advocate for a portal between
+  the 15th and 16th street intersections of Church. This road currently has dedicated transit-only lanes, meaning that we can remove the 2 center lanes while easily 
+  maintaining some amount of road infrastructure around them. This block stretches over 500 feet between sidewalks, giving us plenty of room to go underground. From here,
+  we would then continue on the J’s normal route on the surface.
+</p>
+
+
+<img-container>
+  <img src="/public/jDeinterlining/geographic-j.webp">
+  <caption>The full geographic route</caption>
+</img-container>
+
+<p>
+  Now that we’ve seen the full route, lets take a look back at our established pillars and see how we’ve done:
+</p>
+
+<h3>
+1: Provide Meaningfully New Benefits
+</h3>
+
+<p>
+  The most obvious benefit to the line here is new service. We now have the ability to get to Japantown and a new Geary subway via the 
+  <span class="route j">J</span> - Church is 
+  never getting full accessibility in its current state. Too many of the stations are unreasonable to make high level, and putting high floor 
+  platforms wherever possible would mean constantly moving the stairs up and down. However, the only reason we need some amount of high-floor 
+  accessibility is because of the Market Street tunnel. We can build our new Webster Tunnel with low-level platforms, allowing the full line to be
+  low platform. We can then use low-floor vehicles common on tram systems around the world, making accessibility much easier at cramped stations and 
+  removing the need for the stairs moving up and down between accessible and non accessible platforms.  Balboa Park, but I think that this is a relatively simple tradeoff to add to the project.his does come at the cost of adding a low floor 
+  platform at Balboa Park, but I think that this is a relatively simple tradeoff to add to the project.
+</p>
+
+<h3>
+2: Improve Existing Operations
+</h3>
+
+<p>
+  As discussed at the start, de-interlining the <span class="route j">J</span> frees up congestion in the Market Street subway allowing for higher frequencies on other lines in the tunnel, 
+  and net more capacity. Since the 1 car J’s will be replaced with higher car trains on other lines, the net capacity of the tunnel increases. Additionally, we 
+  can increase service on the new full route of the J, moving beyond the current 15 minute peak headways.
+</p>
+
+<h3>
+3: Minimize Construction / Staging Woes
+</h3>
+
+<p>
+  Our new portal placement helps minimize construction and staging issues, and building our tunnel south rather than north further improves the situation. 
+  Currently, the <span class="route f">F</span> uses a track along 17th St. to get heritage streetcars onto the surface of Market. If we had a portal south of this, we would need a 
+
+  new mechanism to get the trains onto and off of that line. This portal will cut off <span class="route j">J</span> tracks, meaning that its current service pattern cannot continue during 
+  this period, and therefore we should build it last (necessitating the southbound tunnel building). We can, however, utilize that 17th St. track for an interesting 
+  interim option: the <span class="route f">F</span> cars along the J’s route, we can simply use it to extend heritage
+  streetcar service along the J’s route. This has been proposed for the <span class="route j">J</span> on its own merits, and while it was shot down for its slower speed compared to going underground on
+  Market I think it is a perfectly serviceable stopgap.
+</p>
+
+<p>
+  With all of this laid out, I think that a de-interlining extension of the <span class="route j">J</span> is shockingly possible. To provide evidence for its merits, 
+  we can take a look at <a href="https://www.sfmta.com/reports/percent-daily-muni-trips-crowded-route-and-month">bus crowding data from SFMTA</a>. This project, with its eventual extension 
+  to the marina, would closely follow the 22 bus route. This route is currently 3-5% crowded. In comparison, the 38r (a route getting improved upon with much more service 
+  than this new <span class="route j">J</span> - Church) is 5-8%. I have my doubts of whether this could be a real project by the SFMTA/SFCTA given the current state 
+  of rail funding, but I would like to see something like it considered in a future transportation plan.
+</p>
+
+<small>
+  PS: <br>
+  I took the liberty of adding this and a Geary transit line (the one from my <a href="https://www.eleanorkolson.com/stuff/gearyalignments">blog post</a>, despite its flaws) 
+  to a fantasy map of the SF transit network. I think I’ll keep this updated as I write about transit, adding fantasy routes and updating to represent real plans as 
+  projects develop.
+</small>
+
+<img-container>
+    <img src="/public/jDeinterlining/future-muni.svg">
+    <caption>One day...</caption>
+</img-container>
+
+]]></description>
+    <category>Transit</category>
+    <category>San Francisco</category>
+    <link>https://eleanorkolson.com/stuff/jDeinterlining.html</link>
+    <guid>https://eleanorkolson.com/stuff/jDeinterlining.html</guid>
+    <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
     <title>What could a Geary Muni Metro Line Look Like?</title>
-    <description><![CDATA[    <small>A potential alignment, and a plea for elevated.</small>
-    <p>
+    <description><![CDATA[    <p>
       San Francisco's Municipal Transportation Agency (Muni) has been looking to add a subway to Geary <a href="https://en.wikipedia.org/wiki/Geary_Subway#Early_plans">since before the street's streetcars were decomissioned</a>.
       That's right! Geary once had street running trains along the corridor, part of the rich network of the city's cable car system. Unfortunately, no system has since been built and Geary
       remains the city's <a href="https://www.sfgate.com/travel/resources/transit/article/San-Francisco-most-crowded-bus-routes-Muni-SFMTA-14057322.php">most congested bus corridor</a>. In recent
@@ -63,7 +251,7 @@
     <h2>Avoiding Past Pitfalls</h2>
       <p>
         When discussing potential new Muni Metro service in San Francisco, one past project comes to many people's minds: the Central Subway. This project, a 1.7 mile long extension, cost $1.5 billion and took
-        12 years to complete construction. If we are serious about building new transit infrastructure in the City, we must confront the cost problems our the city's past. There are 2 ways I propose to deal with cost
+        12 years to complete construction. If we are serious about building new transit infrastructure in the City, we must confront the cost problems of the city's past. There are 2 ways I propose to deal with cost
         problems: Elevated and automated rail.
       </p>
     <h2>Elevated Rail</h2>
@@ -93,7 +281,7 @@
       </p>
     <h2>What would this look like</h2>
       <p>
-        Now that we've talked about what technologies we might use, lets see what a Geary subway might look like. rst, I should backtrack slightly on my advocating for elevated rail. While I do think a significant
+        Now that we've talked about what technologies we might use, lets see what a Geary subway might look like. Firrst, I should backtrack slightly on my advocating of elevated rail. While I do think a significant
         portion of the line should be elevated, this is not feasible throughout. Specifically, the downtown area has streets that are too narrow and corners that are too tight to make elevated rail feasible. This will be 
         the most complicated (and expensive) segment, so lets start there.
       </p>
@@ -120,15 +308,15 @@
       </p>
       <h3>Continuing Westward</h3>
       <p>
-        At this point, we will assume approximate half-mile station spacing. This is a common pattern, and strikes a balance between metro speed and closeness to a stop. Given that, we will continue along Post, with our next stop straddling the block between Mason and Taylor Street.
-        We will then continue west, where a half mile stop would be at Polk St, but I will extend it slightly so that our station goes in between Polk and Van Ness. When possible, I am trying to position stations in between streets rather than crossing them. This is to minimize the 
-        impact of consturction to surface traffic (cars, pedestrians, and businesses). By extending it slightly, we also connect directly to Van Ness, a major corridor. The line along here will continue to be dug with a TBM (Tunnel Boring Machine), but should be kept as shallow as possible
+        At this point, we will assume approximate half-mile station spacing. This is a common spacing in metro systems, and strikes a balance between metro speed and closeness to a stop. Given that, we will continue along Post, with our next stop straddling the block between Mason and Taylor Street.
+        We will then continue west, where a half mile stop would be just before Polk St; however, I will extend it slightly so that our station goes in between Polk and Van Ness. When possible, I am trying to position stations in between streets rather than crossing them. This is to minimize the 
+        impact of construction to surface traffic (cars, pedestrians, and businesses). By extending it slightly, we also connect directly to Van Ness, a major corridor. The line along here will continue to be dug with a TBM (Tunnel Boring Machine), but should be kept as shallow as possible
         to minimize station complexity and cost.
       </p>
       <h3>Getting Elevated</h3>
       <p>
-        Now that we have escaped the downtown, we need to elevate the line. We will first continue our TBM along Post, turning onto Peter York Way to get onto Geary. Once we have turned onto geary, we will elevate the line between Gough Street and Laguna Street.
-        If we presume that our elevated metro will be around 20 feet in the air, and our tunnel boring machine is at -10 feet below the surface, we will need to traverse 20 vertial feet along this block. Luckily, our 885 feet of horizontal distance allow that easily,
+        Now that we have escaped the downtown, we need to elevate the line. We will first continue our TBM along Post, turning onto Peter York Way to get onto Geary. Once we have turned onto Geary, we will elevate the line between Gough Street and Laguna Street.
+        If we presume that our elevated metro will be around 20 feet in the air and our tunnel boring machine is at -10 feet below the surface, we will need to traverse 30 vertial feet along this block. Luckily, our 885 feet of horizontal distance allow that easily,
         with the current Seimens S200 (LRV4) used on Muni Metro having a maximum grade of 10% (allowing theoretically 85 feet of vertical change in this section). Once we are elevated, we will quickly hit our first elevated station between Webster and Laguna, directly adjacent
         to the Peace Pagoda and Japan Center Mall.
       </p>
@@ -152,12 +340,14 @@
       <h3>19th Ave</h3>
       <p>
       Once we have traversed Golden Gate Park (with or without a station), we will end up on 19th Avenue. Naturally, we will want to make sure that we connect with the N and L existing muni lines 
-      which stop along this corridor. Luckily, since these are street running lines, we will simply go above them and avoid worrying about elevation changes. Our first stop should be 19th and Judah, 
+      which stop along this corridor. Luckily, since these are street running lines, we will simply go above them and avoid worrying about crossing these lines at grade. Our first stop should be 19th and Judah, 
       connecting to the N. This would be half a mile from a theoretical Golden Gate Park stop, 1.35 miles from a theoretical Geary Presidio stop, and the same 1.35 miles from a theoretical Geary 25th stop.
       We would then have half mile spacing at 19th and Noriega, a smaller distance (2000 feet) to 19th and Quintana, followed by 19th and Taravel at another 2000 feet away. The second 2 stops are slightly 
       closer together to ensure that we connect to the L at 19th and Taravel. We then have a stop between Wawona and Sloat, adjacent to the San Francisco Croquet Club, and will then join up with the 
-      M- Ocean View light rail right of way. We will parallel the stops of the M, stopping at Stonestown and then Holloway, but depart at Junipero. 
-      It still makes sense to have a station around Junipero, but this new line will turn onto Junipero. Therefore, it makes sense to have a stop right before we split off from the M right of way.
+      M- Ocean View light rail right of way. We will parallel the stops of the M, stopping at Stonestown and then Holloway, but depart at Junipero. While these stops on the M are at grade, we will
+      keep the Geary line elevated, with our station above the M. Future work could elevate the M onto our new track, but interlining and automation could cause many issues.
+      We then continue south, eventually turning onto Junipero. While this turn off means we cannot combine our station with the existing M station in the area, it still makes sense to have a station before we 
+      split off from the M right of way.
       Our new line will then cross Brotherhood Way, moving eastward to go down Arch St, making a stop at Arch and Alemany. Finally, it will continue across to Worcester Ave, connecting to the Daly City
       BART station. The penultimate stop in Arch and Alemany is very optional, and the ROW could instead go exclusively along Junipero directly to Daly City.
       </p>
@@ -181,7 +371,7 @@
     <category>San Francisco</category>
     <link>https://eleanorkolson.com/stuff/gearyAlignments.html</link>
     <guid>https://eleanorkolson.com/stuff/gearyAlignments.html</guid>
-    <pubDate>Mon, 26 Jan 2026 02:52:28 GMT</pubDate>
+    <pubDate>Mon, 26 Jan 2026 00:00:00 GMT</pubDate>
   </item>
   <item>
     <title>Hanziyu</title>
@@ -193,97 +383,7 @@
     <category>Conlangs</category>
     <link>https://eleanorkolson.com/stuff/hanziyu.html</link>
     <guid>https://eleanorkolson.com/stuff/hanziyu.html</guid>
-    <pubDate>Sun, 25 Jan 2026 22:36:19 GMT</pubDate>
-  </item>
-  <item>
-    <title>The Defenestration Index</title>
-    <description><![CDATA[    <small>Quantitatively defining the absurdity of English words.</small>
-    <p>
-      When I applied to universities, I was given a truly incredible prompt by the University of Chicago. They are quite famous for their "out there" essay questions, and this year was no different. While, they had a number of options to choose from, the one I chose goes as follows:
-    </p>
-    <blockquote>
-      In Homer’s Iliad, Helen had a “face that launched a thousand ships.” A millihelen, then, measures the beauty needed to launch one ship. The Sagan unit is used to denote any large quantity (in place of “billions and billions”). A New York Minute measures the period of time between a traffic light turning green and the cab behind you honking. Invent a new unit of measurement. How is it derived? How is it used? What are its equivalents?
-    </blockquote>
-    <p>What follows is by no means a rigorous analysis of English, but rather a way to spend far too much time to quantify something both unquantifiable and arguably nonexistent. It may well be my magnum opus.</p>
-    <h3><b>Defenestrate: verb, the act of throwing (something or someone) out of a window.</b></h3>
-    <p>
-      I present to you this word as the epitome of the incredible absurdity of the English language’s
-      vocabulary. While, of course, this is not the only example of a word with little to no practical use, I
-      would argue it is one of the most amusing. The English language has evolved over centuries to create a
-      word for the act of throwing something out of a window, yet we are missing anything in our day-to-day
-      vernacular to monolexically describe the day after tomorrow. This, I argue, is problematic.
-    </p>
-    <p>
-      In all things that evolve, be it people, viruses, or language, evolution is fickle, and relics of
-      another time are to be expected. English, however, seems to have a particular affinity for confusion and
-      illogicalities. Perhaps this should be unsurprising given its background, which is a mix of romance,
-      Germanic, Norse, and even Indo-Aryan families, but to top off this teetering tower of languages writers
-      like Shakespeare have been able to single-handedly expand English vocabulary with everything from
-      “alligator” to “Xanthippe”. Shakespeare’s contributions may show the pervasiveness of his works and
-      the genius of his mind, but they also reveal the complete lack of standards governing the English
-      language. English is a toddler that chews on everything it finds, and English speakers have given it free
-      rein of the rubbish bin.
-    </p>
-    <p>
-      To understand the true extent of the, shall we say, interesting examples of existing vocabulary,
-      it is perhaps best to quantify the usefulness or absurdity of a word. For this, I have developed the latest
-      in word-value analysis methodology: the <i>Word Absurdity Index</i>, also referred to as the Defenestration
-      Score (D-Score).
-    </p>
-    <p>
-      To calculate absurdity the Defenestration Score includes four key elements: how “silly” it
-      sounds, whether it is easily misinterpreted in context, how many ways it can be used, and how
-      commonplace its use. The higher the D-Score, the more empirically absurd the word.
-      Let’s begin with a word’s sound: its phonemic quality. A word’s absurdity can be increased
-      substantially if the actual sound of the word is itself humorous, and according to a <a href="https://psycnet.apa.org/record/2018-52097-001?doi=1">paper written by
-      Professor Chris Westbury from the University of Alberta</a>, we can use a calculation of Shannon entropy
-      based on letter frequency to estimate the humour of a word. The equation for this is as follows, with <i>p<sub>i</sub></i>
-      being the frequency of a letter in English and i being the number of letters in the word. A higher value
-      of this means the word should sound more amusing.
-    </p>
-    <img src="/public/defenestration/humour.png">
-    <p>
-      The next factor is word ambiguity, where a more ambiguous word receives a higher D-Score as
-      its meaning is less clear and its usefulness is consequently lower. This value is based on the definitions
-      of a word, according to WordNet, and is represented in our final equation as <i>q</i>.
-    </p>
-    <p>
-      Third, a word with many related words is more likely to have numerous genuine use cases,
-      which lowers the D-score. This also uses WordNet, and in the equation, <i>h<sub>1</sub></i> is the number of directly
-      related words, while <i>h<sub>2</sub></i> is the number of words related to everything in <i>h<sub>1</sub></i>.
-    </p>
-    <img src="/public/defenestration/ambiguity.jpg">
-    <p>
-      Finally, the most significant component of the D score is a logged average of the word’s usage
-      frequency in print from 1990 to 2019 according to Google NGram viewer, where <i>f<sub>i</sub></i> is the use of the
-      word for a year, and <i>y</i> is the total number of years (almost always 29, except for very new words). This
-      gives us a starting point for its absurdity, which is then modified by our three subcomponents.
-    </p>
-    <img src="/public/defenestration/frequency.jpg">
-    <p>
-      Combining these, we have the full equation for the Defenestration Score/Word Absurdity
-      index. All of these data points on a word come together and spit out a single number that represents a
-      word. Higher is more absurd, lower is more reasonable.
-    </p>
-    <img style="width: 100%; max-width: 800" src="/public/defenestration/full.jpg">
-    <br>
-    <p>
-      One could argue that this scoring system is entirely subjective and quantifying words into a
-      single number is an impossible task. They could point out that I do not account for every possible
-      metric a word may have. They would be right in saying that the Defenestration Score has no
-      equivalents, no verification, and no real use cases. It does, however, have the uncanny ability to
-      immensely amuse those who see it while they also question why I would ever develop such a
-      measurement. This score will not cause Merriam-Webster to throw out words like “ophiophagus” or
-      “bunchberries”, nor will it perfectly identify the relative usefulness of every English word. With such
-      high scorers as “tizzies”, “antigram”, and “theologizer”, its entertainment value is much greater than its
-      applicability, but this gets at what the Defenestration Score truly is: an in-depth answer to an offhand
-      question about the world.
-    </p>
-  ]]></description>
-    <category>Linguistics</category>
-    <link>https://eleanorkolson.com/stuff/defenestrationIndex.html</link>
-    <guid>https://eleanorkolson.com/stuff/defenestrationIndex.html</guid>
-    <pubDate>Sun, 25 Jan 2026 03:47:51 GMT</pubDate>
+    <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
   </item>
   <item>
     <title>Skewax</title>
@@ -378,7 +478,97 @@
     <category>Programming</category>
     <link>https://eleanorkolson.com/stuff/skewax.html</link>
     <guid>https://eleanorkolson.com/stuff/skewax.html</guid>
-    <pubDate>Sun, 25 Jan 2026 03:33:30 GMT</pubDate>
+    <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>The Defenestration Index</title>
+    <description><![CDATA[    <small>Quantitatively defining the absurdity of English words.</small>
+    <p>
+      When I applied to universities, I was given a truly incredible prompt by the University of Chicago. They are quite famous for their "out there" essay questions, and this year was no different. While, they had a number of options to choose from, the one I chose goes as follows:
+    </p>
+    <blockquote>
+      In Homer’s Iliad, Helen had a “face that launched a thousand ships.” A millihelen, then, measures the beauty needed to launch one ship. The Sagan unit is used to denote any large quantity (in place of “billions and billions”). A New York Minute measures the period of time between a traffic light turning green and the cab behind you honking. Invent a new unit of measurement. How is it derived? How is it used? What are its equivalents?
+    </blockquote>
+    <p>What follows is by no means a rigorous analysis of English, but rather a way to spend far too much time to quantify something both unquantifiable and arguably nonexistent. It may well be my magnum opus.</p>
+    <h3><b>Defenestrate: verb, the act of throwing (something or someone) out of a window.</b></h3>
+    <p>
+      I present to you this word as the epitome of the incredible absurdity of the English language’s
+      vocabulary. While, of course, this is not the only example of a word with little to no practical use, I
+      would argue it is one of the most amusing. The English language has evolved over centuries to create a
+      word for the act of throwing something out of a window, yet we are missing anything in our day-to-day
+      vernacular to monolexically describe the day after tomorrow. This, I argue, is problematic.
+    </p>
+    <p>
+      In all things that evolve, be it people, viruses, or language, evolution is fickle, and relics of
+      another time are to be expected. English, however, seems to have a particular affinity for confusion and
+      illogicalities. Perhaps this should be unsurprising given its background, which is a mix of romance,
+      Germanic, Norse, and even Indo-Aryan families, but to top off this teetering tower of languages writers
+      like Shakespeare have been able to single-handedly expand English vocabulary with everything from
+      “alligator” to “Xanthippe”. Shakespeare’s contributions may show the pervasiveness of his works and
+      the genius of his mind, but they also reveal the complete lack of standards governing the English
+      language. English is a toddler that chews on everything it finds, and English speakers have given it free
+      rein of the rubbish bin.
+    </p>
+    <p>
+      To understand the true extent of the, shall we say, interesting examples of existing vocabulary,
+      it is perhaps best to quantify the usefulness or absurdity of a word. For this, I have developed the latest
+      in word-value analysis methodology: the <i>Word Absurdity Index</i>, also referred to as the Defenestration
+      Score (D-Score).
+    </p>
+    <p>
+      To calculate absurdity the Defenestration Score includes four key elements: how “silly” it
+      sounds, whether it is easily misinterpreted in context, how many ways it can be used, and how
+      commonplace its use. The higher the D-Score, the more empirically absurd the word.
+      Let’s begin with a word’s sound: its phonemic quality. A word’s absurdity can be increased
+      substantially if the actual sound of the word is itself humorous, and according to a <a href="https://psycnet.apa.org/record/2018-52097-001?doi=1">paper written by
+      Professor Chris Westbury from the University of Alberta</a>, we can use a calculation of Shannon entropy
+      based on letter frequency to estimate the humour of a word. The equation for this is as follows, with <i>p<sub>i</sub></i>
+      being the frequency of a letter in English and i being the number of letters in the word. A higher value
+      of this means the word should sound more amusing.
+    </p>
+    <img src="/public/defenestration/humour.png">
+    <p>
+      The next factor is word ambiguity, where a more ambiguous word receives a higher D-Score as
+      its meaning is less clear and its usefulness is consequently lower. This value is based on the definitions
+      of a word, according to WordNet, and is represented in our final equation as <i>q</i>.
+    </p>
+    <p>
+      Third, a word with many related words is more likely to have numerous genuine use cases,
+      which lowers the D-score. This also uses WordNet, and in the equation, <i>h<sub>1</sub></i> is the number of directly
+      related words, while <i>h<sub>2</sub></i> is the number of words related to everything in <i>h<sub>1</sub></i>.
+    </p>
+    <img src="/public/defenestration/ambiguity.jpg">
+    <p>
+      Finally, the most significant component of the D score is a logged average of the word’s usage
+      frequency in print from 1990 to 2019 according to Google NGram viewer, where <i>f<sub>i</sub></i> is the use of the
+      word for a year, and <i>y</i> is the total number of years (almost always 29, except for very new words). This
+      gives us a starting point for its absurdity, which is then modified by our three subcomponents.
+    </p>
+    <img src="/public/defenestration/frequency.jpg">
+    <p>
+      Combining these, we have the full equation for the Defenestration Score/Word Absurdity
+      index. All of these data points on a word come together and spit out a single number that represents a
+      word. Higher is more absurd, lower is more reasonable.
+    </p>
+    <img style="width: 100%; max-width: 800" src="/public/defenestration/full.jpg">
+    <br>
+    <p>
+      One could argue that this scoring system is entirely subjective and quantifying words into a
+      single number is an impossible task. They could point out that I do not account for every possible
+      metric a word may have. They would be right in saying that the Defenestration Score has no
+      equivalents, no verification, and no real use cases. It does, however, have the uncanny ability to
+      immensely amuse those who see it while they also question why I would ever develop such a
+      measurement. This score will not cause Merriam-Webster to throw out words like “ophiophagus” or
+      “bunchberries”, nor will it perfectly identify the relative usefulness of every English word. With such
+      high scorers as “tizzies”, “antigram”, and “theologizer”, its entertainment value is much greater than its
+      applicability, but this gets at what the Defenestration Score truly is: an in-depth answer to an offhand
+      question about the world.
+    </p>
+  ]]></description>
+    <category>Linguistics</category>
+    <link>https://eleanorkolson.com/stuff/defenestrationIndex.html</link>
+    <guid>https://eleanorkolson.com/stuff/defenestrationIndex.html</guid>
+    <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
   </item>
   </channel>
 </rss>

@@ -29,6 +29,8 @@ class Parser(HTMLParser):
             self.description = data
         elif self.tag == "keywords":
             self.category = data
+        elif self.tag == "publish-date":
+            self.publish_date = datetime.strptime(data, "%Y.%m.%d")
 
 def rss_categories(category_string):
     return "\n    ".join([f'<category>{f}</category>' for f in category_string.split(", ")])
@@ -42,15 +44,15 @@ def rss_contents(file):
         contents = file_contents.read()
         parser = Parser()
         parser.feed(contents)
-        utc_dt = datetime.utcfromtimestamp(os.stat(file).st_birthtime).replace(tzinfo=timezone.utc)
-        published_date = format_datetime(utc_dt, usegmt=True)
+        utc_dt = parser.publish_date.replace(tzinfo=timezone.utc)
+        publish_date = format_datetime(utc_dt, usegmt=True)
         return f"""  <item>
     <title>{parser.title}</title>
     <description><![CDATA[{rss_processed_page_contents(contents)}]]></description>
     {rss_categories(parser.category)}
     <link>https://eleanorkolson.com/stuff/{file}</link>
     <guid>https://eleanorkolson.com/stuff/{file}</guid>
-    <pubDate>{published_date}</pubDate>
+    <pubDate>{publish_date}</pubDate>
   </item>
 """
 
@@ -58,10 +60,9 @@ def html_contents(file):
     with open(file, "r") as file_contents:
         parser = Parser()
         parser.feed(file_contents.read())
-        utc_dt = datetime.utcfromtimestamp(os.stat(file).st_birthtime)
-        published_date = utc_dt.strftime("%Y-%m-%d")
+        publish_date = parser.publish_date.strftime("%Y-%m-%d")
         return f"""    <li>
-      <a href="{file}">{parser.title}</a>: {parser.description} ({parser.category}) ({published_date})
+      <a href="{file}">{parser.title}</a>: {parser.description} ({parser.category}) ({publish_date})
     </li>"""
 
 def should_include(file):
