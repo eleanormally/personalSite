@@ -71,6 +71,7 @@ def should_include(file):
         "generator.py",
         "feed.xml",
         "feed",
+        "scaffold.html",
     ]
     return file not in excludedFiles and "_draft" not in file
 
